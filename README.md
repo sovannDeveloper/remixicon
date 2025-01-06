@@ -49,7 +49,3 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-
-## License
-
-MIT
