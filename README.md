@@ -1,4 +1,4 @@
-[![logo](images/remixicon-logo.svg)](https://remixicon.com)
+[![logo](images/remixicon-logo.svg)](https://remixicon.com) [![logo](https://remixicon.com/img/logo/light/6th.svg)]
 
 # Remix Icon For Flutter
 
