@@ -11,7 +11,7 @@ class RootApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Remix Icons v4.5.0 Plugin'),
+          title: const Text('Remix Icon v4.6.0 Plugin'),
         ),
         body: Center(
           child: Icon(
