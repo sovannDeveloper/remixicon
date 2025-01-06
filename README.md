@@ -20,7 +20,8 @@ full set of Remix Icons at [remixicon.com](https://remixicon.com).
 In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
 ```yaml
-remixicon: ^1.0.0
+remixicon:
+  git: https://github.com/sovannDeveloper/remixicon.git
 ```
 
 ## Usage
