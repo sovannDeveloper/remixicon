@@ -1,12 +1,12 @@
 /*
-* Remix Icon v4.6.0
+* Remix Icon v4.9.1
 * https://remixicon.com
 * https://github.com/Remix_Design/RemixIcon
 *
 * Copyright RemixIcon.com
-* Released under the Apache License Version 2.0
+* Released under the Remix Icon License 1.0
 *
-* Date: 2024_12_17
+* Date: 2026_01_29
 */
 import 'package:flutter/widgets.dart';
 
@@ -3075,836 +3075,1053 @@ class Remix {
   static const IconData font_family = IconData(0xf390, fontFamily: _family, fontPackage: _pkg);
   static const IconData font_mono = IconData(0xf391, fontFamily: _family, fontPackage: _pkg);
   static const IconData font_sans_serif = IconData(0xf392, fontFamily: _family, fontPackage: _pkg);
-  static const IconData font_sans = IconData(0xf393, fontFamily: _family, fontPackage: _pkg);
   static const IconData hard_drive_3_fill =
-      IconData(0xf394, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf393, fontFamily: _family, fontPackage: _pkg);
   static const IconData hard_drive_3_line =
-      IconData(0xf395, fontFamily: _family, fontPackage: _pkg);
-  static const IconData kick_fill = IconData(0xf396, fontFamily: _family, fontPackage: _pkg);
-  static const IconData kick_line = IconData(0xf397, fontFamily: _family, fontPackage: _pkg);
-  static const IconData list_check_3 = IconData(0xf398, fontFamily: _family, fontPackage: _pkg);
-  static const IconData list_indefinite = IconData(0xf399, fontFamily: _family, fontPackage: _pkg);
-  static const IconData list_ordered_2 = IconData(0xf39a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData list_radio = IconData(0xf39b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData openbase_fill = IconData(0xf39c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData openbase_line = IconData(0xf39d, fontFamily: _family, fontPackage: _pkg);
-  static const IconData planet_fill = IconData(0xf39e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData planet_line = IconData(0xf39f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData prohibited_fill = IconData(0xf3a0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData prohibited_line = IconData(0xf3a1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData quote_text = IconData(0xf3a2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData seo_fill = IconData(0xf3a3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData seo_line = IconData(0xf3a4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData slash_commands = IconData(0xf3a5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData archive_2_fill = IconData(0xf3a6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData archive_2_line = IconData(0xf3a7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData inbox_2_fill = IconData(0xf3a8, fontFamily: _family, fontPackage: _pkg);
-  static const IconData inbox_2_line = IconData(0xf3a9, fontFamily: _family, fontPackage: _pkg);
-  static const IconData shake_hands_fill = IconData(0xf3aa, fontFamily: _family, fontPackage: _pkg);
-  static const IconData shake_hands_line = IconData(0xf3ab, fontFamily: _family, fontPackage: _pkg);
-  static const IconData supabase_fill = IconData(0xf3ac, fontFamily: _family, fontPackage: _pkg);
-  static const IconData supabase_line = IconData(0xf3ad, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf394, fontFamily: _family, fontPackage: _pkg);
+  static const IconData kick_fill = IconData(0xf395, fontFamily: _family, fontPackage: _pkg);
+  static const IconData kick_line = IconData(0xf396, fontFamily: _family, fontPackage: _pkg);
+  static const IconData list_check_3 = IconData(0xf397, fontFamily: _family, fontPackage: _pkg);
+  static const IconData list_indefinite = IconData(0xf398, fontFamily: _family, fontPackage: _pkg);
+  static const IconData list_ordered_2 = IconData(0xf399, fontFamily: _family, fontPackage: _pkg);
+  static const IconData list_radio = IconData(0xf39a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData openbase_fill = IconData(0xf39b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData openbase_line = IconData(0xf39c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData planet_fill = IconData(0xf39d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData planet_line = IconData(0xf39e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData prohibited_fill = IconData(0xf39f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData prohibited_line = IconData(0xf3a0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData quote_text = IconData(0xf3a1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData seo_fill = IconData(0xf3a2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData seo_line = IconData(0xf3a3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData slash_commands = IconData(0xf3a4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData archive_2_fill = IconData(0xf3a5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData archive_2_line = IconData(0xf3a6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData inbox_2_fill = IconData(0xf3a7, fontFamily: _family, fontPackage: _pkg);
+  static const IconData inbox_2_line = IconData(0xf3a8, fontFamily: _family, fontPackage: _pkg);
+  static const IconData shake_hands_fill = IconData(0xf3a9, fontFamily: _family, fontPackage: _pkg);
+  static const IconData shake_hands_line = IconData(0xf3aa, fontFamily: _family, fontPackage: _pkg);
+  static const IconData supabase_fill = IconData(0xf3ab, fontFamily: _family, fontPackage: _pkg);
+  static const IconData supabase_line = IconData(0xf3ac, fontFamily: _family, fontPackage: _pkg);
   static const IconData water_percent_fill =
-      IconData(0xf3ae, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf3ad, fontFamily: _family, fontPackage: _pkg);
   static const IconData water_percent_line =
-      IconData(0xf3af, fontFamily: _family, fontPackage: _pkg);
-  static const IconData yuque_fill = IconData(0xf3b0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData yuque_line = IconData(0xf3b1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData crosshair_2_fill = IconData(0xf3b2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData crosshair_2_line = IconData(0xf3b3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData crosshair_fill = IconData(0xf3b4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData crosshair_line = IconData(0xf3b5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData file_close_fill = IconData(0xf3b6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData file_close_line = IconData(0xf3b7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData infinity_fill = IconData(0xf3b8, fontFamily: _family, fontPackage: _pkg);
-  static const IconData infinity_line = IconData(0xf3b9, fontFamily: _family, fontPackage: _pkg);
-  static const IconData rfid_fill = IconData(0xf3ba, fontFamily: _family, fontPackage: _pkg);
-  static const IconData rfid_line = IconData(0xf3bb, fontFamily: _family, fontPackage: _pkg);
-  static const IconData slash_commands_2 = IconData(0xf3bc, fontFamily: _family, fontPackage: _pkg);
-  static const IconData user_forbid_fill = IconData(0xf3bd, fontFamily: _family, fontPackage: _pkg);
-  static const IconData user_forbid_line = IconData(0xf3be, fontFamily: _family, fontPackage: _pkg);
-  static const IconData beer_fill = IconData(0xf3bf, fontFamily: _family, fontPackage: _pkg);
-  static const IconData beer_line = IconData(0xf3c0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData circle_fill = IconData(0xf3c1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData circle_line = IconData(0xf3c2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dropdown_list = IconData(0xf3c3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData file_image_fill = IconData(0xf3c4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData file_image_line = IconData(0xf3c5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData file_pdf_2_fill = IconData(0xf3c6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData file_pdf_2_line = IconData(0xf3c7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData file_video_fill = IconData(0xf3c8, fontFamily: _family, fontPackage: _pkg);
-  static const IconData file_video_line = IconData(0xf3c9, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf3ae, fontFamily: _family, fontPackage: _pkg);
+  static const IconData yuque_fill = IconData(0xf3af, fontFamily: _family, fontPackage: _pkg);
+  static const IconData yuque_line = IconData(0xf3b0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData crosshair_2_fill = IconData(0xf3b1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData crosshair_2_line = IconData(0xf3b2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData crosshair_fill = IconData(0xf3b3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData crosshair_line = IconData(0xf3b4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_close_fill = IconData(0xf3b5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_close_line = IconData(0xf3b6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData infinity_fill = IconData(0xf3b7, fontFamily: _family, fontPackage: _pkg);
+  static const IconData infinity_line = IconData(0xf3b8, fontFamily: _family, fontPackage: _pkg);
+  static const IconData rfid_fill = IconData(0xf3b9, fontFamily: _family, fontPackage: _pkg);
+  static const IconData rfid_line = IconData(0xf3ba, fontFamily: _family, fontPackage: _pkg);
+  static const IconData slash_commands_2 = IconData(0xf3bb, fontFamily: _family, fontPackage: _pkg);
+  static const IconData user_forbid_fill = IconData(0xf3bc, fontFamily: _family, fontPackage: _pkg);
+  static const IconData user_forbid_line = IconData(0xf3bd, fontFamily: _family, fontPackage: _pkg);
+  static const IconData beer_fill = IconData(0xf3be, fontFamily: _family, fontPackage: _pkg);
+  static const IconData beer_line = IconData(0xf3bf, fontFamily: _family, fontPackage: _pkg);
+  static const IconData circle_fill = IconData(0xf3c0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData circle_line = IconData(0xf3c1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dropdown_list = IconData(0xf3c2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_image_fill = IconData(0xf3c3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_image_line = IconData(0xf3c4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_pdf_2_fill = IconData(0xf3c5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_pdf_2_line = IconData(0xf3c6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_video_fill = IconData(0xf3c7, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_video_line = IconData(0xf3c8, fontFamily: _family, fontPackage: _pkg);
   static const IconData folder_image_fill =
-      IconData(0xf3ca, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf3c9, fontFamily: _family, fontPackage: _pkg);
   static const IconData folder_image_line =
-      IconData(0xf3cb, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf3ca, fontFamily: _family, fontPackage: _pkg);
   static const IconData folder_video_fill =
-      IconData(0xf3cc, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf3cb, fontFamily: _family, fontPackage: _pkg);
   static const IconData folder_video_line =
-      IconData(0xf3cd, fontFamily: _family, fontPackage: _pkg);
-  static const IconData hexagon_fill = IconData(0xf3ce, fontFamily: _family, fontPackage: _pkg);
-  static const IconData hexagon_line = IconData(0xf3cf, fontFamily: _family, fontPackage: _pkg);
-  static const IconData menu_search_fill = IconData(0xf3d0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData menu_search_line = IconData(0xf3d1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData octagon_fill = IconData(0xf3d2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData octagon_line = IconData(0xf3d3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData pentagon_fill = IconData(0xf3d4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData pentagon_line = IconData(0xf3d5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData rectangle_fill = IconData(0xf3d6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData rectangle_line = IconData(0xf3d7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData robot_2_fill = IconData(0xf3d8, fontFamily: _family, fontPackage: _pkg);
-  static const IconData robot_2_line = IconData(0xf3d9, fontFamily: _family, fontPackage: _pkg);
-  static const IconData shapes_fill = IconData(0xf3da, fontFamily: _family, fontPackage: _pkg);
-  static const IconData shapes_line = IconData(0xf3db, fontFamily: _family, fontPackage: _pkg);
-  static const IconData square_fill = IconData(0xf3dc, fontFamily: _family, fontPackage: _pkg);
-  static const IconData square_line = IconData(0xf3dd, fontFamily: _family, fontPackage: _pkg);
-  static const IconData tent_fill = IconData(0xf3de, fontFamily: _family, fontPackage: _pkg);
-  static const IconData tent_line = IconData(0xf3df, fontFamily: _family, fontPackage: _pkg);
-  static const IconData threads_fill = IconData(0xf3e0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData threads_line = IconData(0xf3e1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData tree_fill = IconData(0xf3e2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData tree_line = IconData(0xf3e3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData triangle_fill = IconData(0xf3e4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData triangle_line = IconData(0xf3e5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData twitter_x_fill = IconData(0xf3e6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData twitter_x_line = IconData(0xf3e7, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf3cc, fontFamily: _family, fontPackage: _pkg);
+  static const IconData hexagon_fill = IconData(0xf3cd, fontFamily: _family, fontPackage: _pkg);
+  static const IconData hexagon_line = IconData(0xf3ce, fontFamily: _family, fontPackage: _pkg);
+  static const IconData menu_search_fill = IconData(0xf3cf, fontFamily: _family, fontPackage: _pkg);
+  static const IconData menu_search_line = IconData(0xf3d0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData octagon_fill = IconData(0xf3d1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData octagon_line = IconData(0xf3d2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pentagon_fill = IconData(0xf3d3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pentagon_line = IconData(0xf3d4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData rectangle_fill = IconData(0xf3d5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData rectangle_line = IconData(0xf3d6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData robot_2_fill = IconData(0xf3d7, fontFamily: _family, fontPackage: _pkg);
+  static const IconData robot_2_line = IconData(0xf3d8, fontFamily: _family, fontPackage: _pkg);
+  static const IconData shapes_fill = IconData(0xf3d9, fontFamily: _family, fontPackage: _pkg);
+  static const IconData shapes_line = IconData(0xf3da, fontFamily: _family, fontPackage: _pkg);
+  static const IconData square_fill = IconData(0xf3db, fontFamily: _family, fontPackage: _pkg);
+  static const IconData square_line = IconData(0xf3dc, fontFamily: _family, fontPackage: _pkg);
+  static const IconData tent_fill = IconData(0xf3dd, fontFamily: _family, fontPackage: _pkg);
+  static const IconData tent_line = IconData(0xf3de, fontFamily: _family, fontPackage: _pkg);
+  static const IconData threads_fill = IconData(0xf3df, fontFamily: _family, fontPackage: _pkg);
+  static const IconData threads_line = IconData(0xf3e0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData tree_fill = IconData(0xf3e1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData tree_line = IconData(0xf3e2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData triangle_fill = IconData(0xf3e3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData triangle_line = IconData(0xf3e4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData twitter_x_fill = IconData(0xf3e5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData twitter_x_line = IconData(0xf3e6, fontFamily: _family, fontPackage: _pkg);
   static const IconData verified_badge_fill =
-      IconData(0xf3e8, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf3e7, fontFamily: _family, fontPackage: _pkg);
   static const IconData verified_badge_line =
-      IconData(0xf3e9, fontFamily: _family, fontPackage: _pkg);
-  static const IconData armchair_fill = IconData(0xf3ea, fontFamily: _family, fontPackage: _pkg);
-  static const IconData armchair_line = IconData(0xf3eb, fontFamily: _family, fontPackage: _pkg);
-  static const IconData bnb_fill = IconData(0xf3ec, fontFamily: _family, fontPackage: _pkg);
-  static const IconData bnb_line = IconData(0xf3ed, fontFamily: _family, fontPackage: _pkg);
-  static const IconData bread_fill = IconData(0xf3ee, fontFamily: _family, fontPackage: _pkg);
-  static const IconData bread_line = IconData(0xf3ef, fontFamily: _family, fontPackage: _pkg);
-  static const IconData btc_fill = IconData(0xf3f0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData btc_line = IconData(0xf3f1, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf3e8, fontFamily: _family, fontPackage: _pkg);
+  static const IconData armchair_fill = IconData(0xf3e9, fontFamily: _family, fontPackage: _pkg);
+  static const IconData armchair_line = IconData(0xf3ea, fontFamily: _family, fontPackage: _pkg);
+  static const IconData bnb_fill = IconData(0xf3eb, fontFamily: _family, fontPackage: _pkg);
+  static const IconData bnb_line = IconData(0xf3ec, fontFamily: _family, fontPackage: _pkg);
+  static const IconData bread_fill = IconData(0xf3ed, fontFamily: _family, fontPackage: _pkg);
+  static const IconData bread_line = IconData(0xf3ee, fontFamily: _family, fontPackage: _pkg);
+  static const IconData btc_fill = IconData(0xf3ef, fontFamily: _family, fontPackage: _pkg);
+  static const IconData btc_line = IconData(0xf3f0, fontFamily: _family, fontPackage: _pkg);
   static const IconData calendar_schedule_fill =
-      IconData(0xf3f2, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf3f1, fontFamily: _family, fontPackage: _pkg);
   static const IconData calendar_schedule_line =
-      IconData(0xf3f3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_1_fill = IconData(0xf3f4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_1_line = IconData(0xf3f5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_2_fill = IconData(0xf3f6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_2_line = IconData(0xf3f7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_3_fill = IconData(0xf3f8, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_3_line = IconData(0xf3f9, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_4_fill = IconData(0xf3fa, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_4_line = IconData(0xf3fb, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_5_fill = IconData(0xf3fc, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_5_line = IconData(0xf3fd, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_6_fill = IconData(0xf3fe, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_6_line = IconData(0xf3ff, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_fill = IconData(0xf400, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dice_line = IconData(0xf401, fontFamily: _family, fontPackage: _pkg);
-  static const IconData drinks_fill = IconData(0xf402, fontFamily: _family, fontPackage: _pkg);
-  static const IconData drinks_line = IconData(0xf403, fontFamily: _family, fontPackage: _pkg);
-  static const IconData equalizer_2_fill = IconData(0xf404, fontFamily: _family, fontPackage: _pkg);
-  static const IconData equalizer_2_line = IconData(0xf405, fontFamily: _family, fontPackage: _pkg);
-  static const IconData equalizer_3_fill = IconData(0xf406, fontFamily: _family, fontPackage: _pkg);
-  static const IconData equalizer_3_line = IconData(0xf407, fontFamily: _family, fontPackage: _pkg);
-  static const IconData eth_fill = IconData(0xf408, fontFamily: _family, fontPackage: _pkg);
-  static const IconData eth_line = IconData(0xf409, fontFamily: _family, fontPackage: _pkg);
-  static const IconData flower_fill = IconData(0xf40a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData flower_line = IconData(0xf40b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData glasses_2_fill = IconData(0xf40c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData glasses_2_line = IconData(0xf40d, fontFamily: _family, fontPackage: _pkg);
-  static const IconData glasses_fill = IconData(0xf40e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData glasses_line = IconData(0xf40f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData goggles_fill = IconData(0xf410, fontFamily: _family, fontPackage: _pkg);
-  static const IconData goggles_line = IconData(0xf411, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf3f2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_1_fill = IconData(0xf3f3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_1_line = IconData(0xf3f4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_2_fill = IconData(0xf3f5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_2_line = IconData(0xf3f6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_3_fill = IconData(0xf3f7, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_3_line = IconData(0xf3f8, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_4_fill = IconData(0xf3f9, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_4_line = IconData(0xf3fa, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_5_fill = IconData(0xf3fb, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_5_line = IconData(0xf3fc, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_6_fill = IconData(0xf3fd, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_6_line = IconData(0xf3fe, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_fill = IconData(0xf3ff, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dice_line = IconData(0xf400, fontFamily: _family, fontPackage: _pkg);
+  static const IconData drinks_fill = IconData(0xf401, fontFamily: _family, fontPackage: _pkg);
+  static const IconData drinks_line = IconData(0xf402, fontFamily: _family, fontPackage: _pkg);
+  static const IconData equalizer_2_fill = IconData(0xf403, fontFamily: _family, fontPackage: _pkg);
+  static const IconData equalizer_2_line = IconData(0xf404, fontFamily: _family, fontPackage: _pkg);
+  static const IconData equalizer_3_fill = IconData(0xf405, fontFamily: _family, fontPackage: _pkg);
+  static const IconData equalizer_3_line = IconData(0xf406, fontFamily: _family, fontPackage: _pkg);
+  static const IconData eth_fill = IconData(0xf407, fontFamily: _family, fontPackage: _pkg);
+  static const IconData eth_line = IconData(0xf408, fontFamily: _family, fontPackage: _pkg);
+  static const IconData flower_fill = IconData(0xf409, fontFamily: _family, fontPackage: _pkg);
+  static const IconData flower_line = IconData(0xf40a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData glasses_2_fill = IconData(0xf40b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData glasses_2_line = IconData(0xf40c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData glasses_fill = IconData(0xf40d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData glasses_line = IconData(0xf40e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData goggles_fill = IconData(0xf40f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData goggles_line = IconData(0xf410, fontFamily: _family, fontPackage: _pkg);
   static const IconData image_circle_fill =
-      IconData(0xf412, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf411, fontFamily: _family, fontPackage: _pkg);
   static const IconData image_circle_line =
-      IconData(0xf413, fontFamily: _family, fontPackage: _pkg);
-  static const IconData info_i = IconData(0xf414, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf412, fontFamily: _family, fontPackage: _pkg);
+  static const IconData info_i = IconData(0xf413, fontFamily: _family, fontPackage: _pkg);
   static const IconData money_rupee_circle_fill =
-      IconData(0xf415, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf414, fontFamily: _family, fontPackage: _pkg);
   static const IconData money_rupee_circle_line =
-      IconData(0xf416, fontFamily: _family, fontPackage: _pkg);
-  static const IconData news_fill = IconData(0xf417, fontFamily: _family, fontPackage: _pkg);
-  static const IconData news_line = IconData(0xf418, fontFamily: _family, fontPackage: _pkg);
-  static const IconData robot_3_fill = IconData(0xf419, fontFamily: _family, fontPackage: _pkg);
-  static const IconData robot_3_line = IconData(0xf41a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData share_2_fill = IconData(0xf41b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData share_2_line = IconData(0xf41c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData sofa_fill = IconData(0xf41d, fontFamily: _family, fontPackage: _pkg);
-  static const IconData sofa_line = IconData(0xf41e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData svelte_fill = IconData(0xf41f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData svelte_line = IconData(0xf420, fontFamily: _family, fontPackage: _pkg);
-  static const IconData vk_fill = IconData(0xf421, fontFamily: _family, fontPackage: _pkg);
-  static const IconData vk_line = IconData(0xf422, fontFamily: _family, fontPackage: _pkg);
-  static const IconData xrp_fill = IconData(0xf423, fontFamily: _family, fontPackage: _pkg);
-  static const IconData xrp_line = IconData(0xf424, fontFamily: _family, fontPackage: _pkg);
-  static const IconData xtz_fill = IconData(0xf425, fontFamily: _family, fontPackage: _pkg);
-  static const IconData xtz_line = IconData(0xf426, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf415, fontFamily: _family, fontPackage: _pkg);
+  static const IconData news_fill = IconData(0xf416, fontFamily: _family, fontPackage: _pkg);
+  static const IconData news_line = IconData(0xf417, fontFamily: _family, fontPackage: _pkg);
+  static const IconData robot_3_fill = IconData(0xf418, fontFamily: _family, fontPackage: _pkg);
+  static const IconData robot_3_line = IconData(0xf419, fontFamily: _family, fontPackage: _pkg);
+  static const IconData share_2_fill = IconData(0xf41a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData share_2_line = IconData(0xf41b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData sofa_fill = IconData(0xf41c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData sofa_line = IconData(0xf41d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData svelte_fill = IconData(0xf41e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData svelte_line = IconData(0xf41f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData vk_fill = IconData(0xf420, fontFamily: _family, fontPackage: _pkg);
+  static const IconData vk_line = IconData(0xf421, fontFamily: _family, fontPackage: _pkg);
+  static const IconData xrp_fill = IconData(0xf422, fontFamily: _family, fontPackage: _pkg);
+  static const IconData xrp_line = IconData(0xf423, fontFamily: _family, fontPackage: _pkg);
+  static const IconData xtz_fill = IconData(0xf424, fontFamily: _family, fontPackage: _pkg);
+  static const IconData xtz_line = IconData(0xf425, fontFamily: _family, fontPackage: _pkg);
   static const IconData archive_stack_fill =
-      IconData(0xf427, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf426, fontFamily: _family, fontPackage: _pkg);
   static const IconData archive_stack_line =
-      IconData(0xf428, fontFamily: _family, fontPackage: _pkg);
-  static const IconData bowl_fill = IconData(0xf429, fontFamily: _family, fontPackage: _pkg);
-  static const IconData bowl_line = IconData(0xf42a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData calendar_view = IconData(0xf42b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData carousel_view = IconData(0xf42c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData code_block = IconData(0xf42d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf427, fontFamily: _family, fontPackage: _pkg);
+  static const IconData bowl_fill = IconData(0xf428, fontFamily: _family, fontPackage: _pkg);
+  static const IconData bowl_line = IconData(0xf429, fontFamily: _family, fontPackage: _pkg);
+  static const IconData calendar_view = IconData(0xf42a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData carousel_view = IconData(0xf42b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData code_block = IconData(0xf42c, fontFamily: _family, fontPackage: _pkg);
   static const IconData color_filter_fill =
-      IconData(0xf42e, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf42d, fontFamily: _family, fontPackage: _pkg);
   static const IconData color_filter_line =
-      IconData(0xf42f, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf42e, fontFamily: _family, fontPackage: _pkg);
   static const IconData contacts_book_3_fill =
-      IconData(0xf430, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf42f, fontFamily: _family, fontPackage: _pkg);
   static const IconData contacts_book_3_line =
-      IconData(0xf431, fontFamily: _family, fontPackage: _pkg);
-  static const IconData contract_fill = IconData(0xf432, fontFamily: _family, fontPackage: _pkg);
-  static const IconData contract_line = IconData(0xf433, fontFamily: _family, fontPackage: _pkg);
-  static const IconData drinks_2_fill = IconData(0xf434, fontFamily: _family, fontPackage: _pkg);
-  static const IconData drinks_2_line = IconData(0xf435, fontFamily: _family, fontPackage: _pkg);
-  static const IconData export_fill = IconData(0xf436, fontFamily: _family, fontPackage: _pkg);
-  static const IconData export_line = IconData(0xf437, fontFamily: _family, fontPackage: _pkg);
-  static const IconData file_check_fill = IconData(0xf438, fontFamily: _family, fontPackage: _pkg);
-  static const IconData file_check_line = IconData(0xf439, fontFamily: _family, fontPackage: _pkg);
-  static const IconData focus_mode = IconData(0xf43a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData folder_6_fill = IconData(0xf43b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData folder_6_line = IconData(0xf43c, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf430, fontFamily: _family, fontPackage: _pkg);
+  static const IconData contract_fill = IconData(0xf431, fontFamily: _family, fontPackage: _pkg);
+  static const IconData contract_line = IconData(0xf432, fontFamily: _family, fontPackage: _pkg);
+  static const IconData drinks_2_fill = IconData(0xf433, fontFamily: _family, fontPackage: _pkg);
+  static const IconData drinks_2_line = IconData(0xf434, fontFamily: _family, fontPackage: _pkg);
+  static const IconData export_fill = IconData(0xf435, fontFamily: _family, fontPackage: _pkg);
+  static const IconData export_line = IconData(0xf436, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_check_fill = IconData(0xf437, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_check_line = IconData(0xf438, fontFamily: _family, fontPackage: _pkg);
+  static const IconData focus_mode = IconData(0xf439, fontFamily: _family, fontPackage: _pkg);
+  static const IconData folder_6_fill = IconData(0xf43a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData folder_6_line = IconData(0xf43b, fontFamily: _family, fontPackage: _pkg);
   static const IconData folder_check_fill =
-      IconData(0xf43d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf43c, fontFamily: _family, fontPackage: _pkg);
   static const IconData folder_check_line =
-      IconData(0xf43e, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf43d, fontFamily: _family, fontPackage: _pkg);
   static const IconData folder_close_fill =
-      IconData(0xf43f, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf43e, fontFamily: _family, fontPackage: _pkg);
   static const IconData folder_close_line =
-      IconData(0xf440, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf43f, fontFamily: _family, fontPackage: _pkg);
   static const IconData folder_cloud_fill =
-      IconData(0xf441, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf440, fontFamily: _family, fontPackage: _pkg);
   static const IconData folder_cloud_line =
-      IconData(0xf442, fontFamily: _family, fontPackage: _pkg);
-  static const IconData gallery_view_2 = IconData(0xf443, fontFamily: _family, fontPackage: _pkg);
-  static const IconData gallery_view = IconData(0xf444, fontFamily: _family, fontPackage: _pkg);
-  static const IconData hand = IconData(0xf445, fontFamily: _family, fontPackage: _pkg);
-  static const IconData import_fill = IconData(0xf446, fontFamily: _family, fontPackage: _pkg);
-  static const IconData import_line = IconData(0xf447, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf441, fontFamily: _family, fontPackage: _pkg);
+  static const IconData gallery_view_2 = IconData(0xf442, fontFamily: _family, fontPackage: _pkg);
+  static const IconData gallery_view = IconData(0xf443, fontFamily: _family, fontPackage: _pkg);
+  static const IconData hand = IconData(0xf444, fontFamily: _family, fontPackage: _pkg);
+  static const IconData import_fill = IconData(0xf445, fontFamily: _family, fontPackage: _pkg);
+  static const IconData import_line = IconData(0xf446, fontFamily: _family, fontPackage: _pkg);
   static const IconData information_2_fill =
-      IconData(0xf448, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf447, fontFamily: _family, fontPackage: _pkg);
   static const IconData information_2_line =
-      IconData(0xf449, fontFamily: _family, fontPackage: _pkg);
-  static const IconData kanban_view_2 = IconData(0xf44a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData kanban_view = IconData(0xf44b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData list_view = IconData(0xf44c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData lock_star_fill = IconData(0xf44d, fontFamily: _family, fontPackage: _pkg);
-  static const IconData lock_star_line = IconData(0xf44e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData puzzle_2_fill = IconData(0xf44f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData puzzle_2_line = IconData(0xf450, fontFamily: _family, fontPackage: _pkg);
-  static const IconData puzzle_fill = IconData(0xf451, fontFamily: _family, fontPackage: _pkg);
-  static const IconData puzzle_line = IconData(0xf452, fontFamily: _family, fontPackage: _pkg);
-  static const IconData ram_2_fill = IconData(0xf453, fontFamily: _family, fontPackage: _pkg);
-  static const IconData ram_2_line = IconData(0xf454, fontFamily: _family, fontPackage: _pkg);
-  static const IconData ram_fill = IconData(0xf455, fontFamily: _family, fontPackage: _pkg);
-  static const IconData ram_line = IconData(0xf456, fontFamily: _family, fontPackage: _pkg);
-  static const IconData receipt_fill = IconData(0xf457, fontFamily: _family, fontPackage: _pkg);
-  static const IconData receipt_line = IconData(0xf458, fontFamily: _family, fontPackage: _pkg);
-  static const IconData shadow_fill = IconData(0xf459, fontFamily: _family, fontPackage: _pkg);
-  static const IconData shadow_line = IconData(0xf45a, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf448, fontFamily: _family, fontPackage: _pkg);
+  static const IconData kanban_view_2 = IconData(0xf449, fontFamily: _family, fontPackage: _pkg);
+  static const IconData kanban_view = IconData(0xf44a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData list_view = IconData(0xf44b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData lock_star_fill = IconData(0xf44c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData lock_star_line = IconData(0xf44d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData puzzle_2_fill = IconData(0xf44e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData puzzle_2_line = IconData(0xf44f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData puzzle_fill = IconData(0xf450, fontFamily: _family, fontPackage: _pkg);
+  static const IconData puzzle_line = IconData(0xf451, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ram_2_fill = IconData(0xf452, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ram_2_line = IconData(0xf453, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ram_fill = IconData(0xf454, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ram_line = IconData(0xf455, fontFamily: _family, fontPackage: _pkg);
+  static const IconData receipt_fill = IconData(0xf456, fontFamily: _family, fontPackage: _pkg);
+  static const IconData receipt_line = IconData(0xf457, fontFamily: _family, fontPackage: _pkg);
+  static const IconData shadow_fill = IconData(0xf458, fontFamily: _family, fontPackage: _pkg);
+  static const IconData shadow_line = IconData(0xf459, fontFamily: _family, fontPackage: _pkg);
   static const IconData sidebar_fold_fill =
-      IconData(0xf45b, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf45a, fontFamily: _family, fontPackage: _pkg);
   static const IconData sidebar_fold_line =
-      IconData(0xf45c, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf45b, fontFamily: _family, fontPackage: _pkg);
   static const IconData sidebar_unfold_fill =
-      IconData(0xf45d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf45c, fontFamily: _family, fontPackage: _pkg);
   static const IconData sidebar_unfold_line =
-      IconData(0xf45e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData slideshow_view = IconData(0xf45f, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf45d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData slideshow_view = IconData(0xf45e, fontFamily: _family, fontPackage: _pkg);
   static const IconData sort_alphabet_asc =
-      IconData(0xf460, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf45f, fontFamily: _family, fontPackage: _pkg);
   static const IconData sort_alphabet_desc =
-      IconData(0xf461, fontFamily: _family, fontPackage: _pkg);
-  static const IconData sort_number_asc = IconData(0xf462, fontFamily: _family, fontPackage: _pkg);
-  static const IconData sort_number_desc = IconData(0xf463, fontFamily: _family, fontPackage: _pkg);
-  static const IconData stacked_view = IconData(0xf464, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf460, fontFamily: _family, fontPackage: _pkg);
+  static const IconData sort_number_asc = IconData(0xf461, fontFamily: _family, fontPackage: _pkg);
+  static const IconData sort_number_desc = IconData(0xf462, fontFamily: _family, fontPackage: _pkg);
+  static const IconData stacked_view = IconData(0xf463, fontFamily: _family, fontPackage: _pkg);
   static const IconData sticky_note_add_fill =
-      IconData(0xf465, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf464, fontFamily: _family, fontPackage: _pkg);
   static const IconData sticky_note_add_line =
-      IconData(0xf466, fontFamily: _family, fontPackage: _pkg);
-  static const IconData swap_2_fill = IconData(0xf467, fontFamily: _family, fontPackage: _pkg);
-  static const IconData swap_2_line = IconData(0xf468, fontFamily: _family, fontPackage: _pkg);
-  static const IconData swap_3_fill = IconData(0xf469, fontFamily: _family, fontPackage: _pkg);
-  static const IconData swap_3_line = IconData(0xf46a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData table_3 = IconData(0xf46b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData table_view = IconData(0xf46c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData text_block = IconData(0xf46d, fontFamily: _family, fontPackage: _pkg);
-  static const IconData text_snippet = IconData(0xf46e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData timeline_view = IconData(0xf46f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData blogger_fill = IconData(0xf470, fontFamily: _family, fontPackage: _pkg);
-  static const IconData blogger_line = IconData(0xf471, fontFamily: _family, fontPackage: _pkg);
-  static const IconData chat_thread_fill = IconData(0xf472, fontFamily: _family, fontPackage: _pkg);
-  static const IconData chat_thread_line = IconData(0xf473, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf465, fontFamily: _family, fontPackage: _pkg);
+  static const IconData swap_2_fill = IconData(0xf466, fontFamily: _family, fontPackage: _pkg);
+  static const IconData swap_2_line = IconData(0xf467, fontFamily: _family, fontPackage: _pkg);
+  static const IconData swap_3_fill = IconData(0xf468, fontFamily: _family, fontPackage: _pkg);
+  static const IconData swap_3_line = IconData(0xf469, fontFamily: _family, fontPackage: _pkg);
+  static const IconData table_3 = IconData(0xf46a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData table_view = IconData(0xf46b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData text_block = IconData(0xf46c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData text_snippet = IconData(0xf46d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData timeline_view = IconData(0xf46e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData blogger_fill = IconData(0xf46f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData blogger_line = IconData(0xf470, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_thread_fill = IconData(0xf471, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_thread_line = IconData(0xf472, fontFamily: _family, fontPackage: _pkg);
   static const IconData discount_percent_fill =
-      IconData(0xf474, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf473, fontFamily: _family, fontPackage: _pkg);
   static const IconData discount_percent_line =
-      IconData(0xf475, fontFamily: _family, fontPackage: _pkg);
-  static const IconData exchange_2_fill = IconData(0xf476, fontFamily: _family, fontPackage: _pkg);
-  static const IconData exchange_2_line = IconData(0xf477, fontFamily: _family, fontPackage: _pkg);
-  static const IconData git_fork_fill = IconData(0xf478, fontFamily: _family, fontPackage: _pkg);
-  static const IconData git_fork_line = IconData(0xf479, fontFamily: _family, fontPackage: _pkg);
-  static const IconData input_field = IconData(0xf47a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_1_fill = IconData(0xf47b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_1_line = IconData(0xf47c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_2_fill = IconData(0xf47d, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_2_line = IconData(0xf47e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_3_fill = IconData(0xf47f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_3_line = IconData(0xf480, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_4_fill = IconData(0xf481, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_4_line = IconData(0xf482, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_5_fill = IconData(0xf483, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_5_line = IconData(0xf484, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_6_fill = IconData(0xf485, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_6_line = IconData(0xf486, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_7_fill = IconData(0xf487, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_7_line = IconData(0xf488, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_8_fill = IconData(0xf489, fontFamily: _family, fontPackage: _pkg);
-  static const IconData progress_8_line = IconData(0xf48a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData remix_run_fill = IconData(0xf48b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData remix_run_line = IconData(0xf48c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData signpost_fill = IconData(0xf48d, fontFamily: _family, fontPackage: _pkg);
-  static const IconData signpost_line = IconData(0xf48e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData time_zone_fill = IconData(0xf48f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData time_zone_line = IconData(0xf490, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf474, fontFamily: _family, fontPackage: _pkg);
+  static const IconData exchange_2_fill = IconData(0xf475, fontFamily: _family, fontPackage: _pkg);
+  static const IconData exchange_2_line = IconData(0xf476, fontFamily: _family, fontPackage: _pkg);
+  static const IconData git_fork_fill = IconData(0xf477, fontFamily: _family, fontPackage: _pkg);
+  static const IconData git_fork_line = IconData(0xf478, fontFamily: _family, fontPackage: _pkg);
+  static const IconData input_field = IconData(0xf479, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_1_fill = IconData(0xf47a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_1_line = IconData(0xf47b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_2_fill = IconData(0xf47c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_2_line = IconData(0xf47d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_3_fill = IconData(0xf47e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_3_line = IconData(0xf47f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_4_fill = IconData(0xf480, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_4_line = IconData(0xf481, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_5_fill = IconData(0xf482, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_5_line = IconData(0xf483, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_6_fill = IconData(0xf484, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_6_line = IconData(0xf485, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_7_fill = IconData(0xf486, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_7_line = IconData(0xf487, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_8_fill = IconData(0xf488, fontFamily: _family, fontPackage: _pkg);
+  static const IconData progress_8_line = IconData(0xf489, fontFamily: _family, fontPackage: _pkg);
+  static const IconData remix_run_fill = IconData(0xf48a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData remix_run_line = IconData(0xf48b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData signpost_fill = IconData(0xf48c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData signpost_line = IconData(0xf48d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData time_zone_fill = IconData(0xf48e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData time_zone_line = IconData(0xf48f, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_down_wide_fill =
-      IconData(0xf491, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf490, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_down_wide_line =
-      IconData(0xf492, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf491, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_wide_fill =
-      IconData(0xf493, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf492, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_wide_line =
-      IconData(0xf494, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf493, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_wide_fill =
-      IconData(0xf495, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf494, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_wide_line =
-      IconData(0xf496, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf495, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_up_wide_fill =
-      IconData(0xf497, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf496, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_up_wide_line =
-      IconData(0xf498, fontFamily: _family, fontPackage: _pkg);
-  static const IconData bluesky_fill = IconData(0xf499, fontFamily: _family, fontPackage: _pkg);
-  static const IconData bluesky_line = IconData(0xf49a, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf497, fontFamily: _family, fontPackage: _pkg);
+  static const IconData bluesky_fill = IconData(0xf498, fontFamily: _family, fontPackage: _pkg);
+  static const IconData bluesky_line = IconData(0xf499, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_height_fill =
-      IconData(0xf49b, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf49a, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_height_line =
-      IconData(0xf49c, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf49b, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_width_fill =
-      IconData(0xf49d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf49c, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_width_line =
-      IconData(0xf49e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData forward_end_fill = IconData(0xf49f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData forward_end_line = IconData(0xf4a0, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf49d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData forward_end_fill = IconData(0xf49e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData forward_end_line = IconData(0xf49f, fontFamily: _family, fontPackage: _pkg);
   static const IconData forward_end_mini_fill =
-      IconData(0xf4a1, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4a0, fontFamily: _family, fontPackage: _pkg);
   static const IconData forward_end_mini_line =
-      IconData(0xf4a2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData friendica_fill = IconData(0xf4a3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData friendica_line = IconData(0xf4a4, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4a1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData friendica_fill = IconData(0xf4a2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData friendica_line = IconData(0xf4a3, fontFamily: _family, fontPackage: _pkg);
   static const IconData git_pr_draft_fill =
-      IconData(0xf4a5, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4a4, fontFamily: _family, fontPackage: _pkg);
   static const IconData git_pr_draft_line =
-      IconData(0xf4a6, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4a5, fontFamily: _family, fontPackage: _pkg);
   static const IconData play_reverse_fill =
-      IconData(0xf4a7, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4a6, fontFamily: _family, fontPackage: _pkg);
   static const IconData play_reverse_line =
-      IconData(0xf4a8, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4a7, fontFamily: _family, fontPackage: _pkg);
   static const IconData play_reverse_mini_fill =
-      IconData(0xf4a9, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4a8, fontFamily: _family, fontPackage: _pkg);
   static const IconData play_reverse_mini_line =
-      IconData(0xf4aa, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4a9, fontFamily: _family, fontPackage: _pkg);
   static const IconData rewind_start_fill =
-      IconData(0xf4ab, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4aa, fontFamily: _family, fontPackage: _pkg);
   static const IconData rewind_start_line =
-      IconData(0xf4ac, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ab, fontFamily: _family, fontPackage: _pkg);
   static const IconData rewind_start_mini_fill =
-      IconData(0xf4ad, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ac, fontFamily: _family, fontPackage: _pkg);
   static const IconData rewind_start_mini_line =
-      IconData(0xf4ae, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ad, fontFamily: _family, fontPackage: _pkg);
   static const IconData scroll_to_bottom_fill =
-      IconData(0xf4af, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ae, fontFamily: _family, fontPackage: _pkg);
   static const IconData scroll_to_bottom_line =
-      IconData(0xf4b0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData add_large_fill = IconData(0xf4b1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData add_large_line = IconData(0xf4b2, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4af, fontFamily: _family, fontPackage: _pkg);
+  static const IconData add_large_fill = IconData(0xf4b0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData add_large_line = IconData(0xf4b1, fontFamily: _family, fontPackage: _pkg);
   static const IconData aed_electrodes_fill =
-      IconData(0xf4b3, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4b2, fontFamily: _family, fontPackage: _pkg);
   static const IconData aed_electrodes_line =
-      IconData(0xf4b4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData aed_fill = IconData(0xf4b5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData aed_line = IconData(0xf4b6, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4b3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData aed_fill = IconData(0xf4b4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData aed_line = IconData(0xf4b5, fontFamily: _family, fontPackage: _pkg);
   static const IconData alibaba_cloud_fill =
-      IconData(0xf4b7, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4b6, fontFamily: _family, fontPackage: _pkg);
   static const IconData alibaba_cloud_line =
-      IconData(0xf4b8, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4b7, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_bottom_fill =
-      IconData(0xf4b9, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4b8, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_bottom_line =
-      IconData(0xf4ba, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4b9, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_horizontal_center_fill =
-      IconData(0xf4bb, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ba, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_horizontal_center_line =
-      IconData(0xf4bc, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4bb, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_left_fill =
-      IconData(0xf4bd, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4bc, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_left_line =
-      IconData(0xf4be, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4bd, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_right_fill =
-      IconData(0xf4bf, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4be, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_right_line =
-      IconData(0xf4c0, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4bf, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_top_fill =
-      IconData(0xf4c1, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4c0, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_top_line =
-      IconData(0xf4c2, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4c1, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_vertical_center_fill =
-      IconData(0xf4c3, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4c2, fontFamily: _family, fontPackage: _pkg);
   static const IconData align_item_vertical_center_line =
-      IconData(0xf4c4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData apps_2_add_fill = IconData(0xf4c5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData apps_2_add_line = IconData(0xf4c6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData close_large_fill = IconData(0xf4c7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData close_large_line = IconData(0xf4c8, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4c3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData apps_2_add_fill = IconData(0xf4c4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData apps_2_add_line = IconData(0xf4c5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData close_large_fill = IconData(0xf4c6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData close_large_line = IconData(0xf4c7, fontFamily: _family, fontPackage: _pkg);
   static const IconData collapse_diagonal_2_fill =
-      IconData(0xf4c9, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4c8, fontFamily: _family, fontPackage: _pkg);
   static const IconData collapse_diagonal_2_line =
-      IconData(0xf4ca, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4c9, fontFamily: _family, fontPackage: _pkg);
   static const IconData collapse_diagonal_fill =
-      IconData(0xf4cb, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ca, fontFamily: _family, fontPackage: _pkg);
   static const IconData collapse_diagonal_line =
-      IconData(0xf4cc, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4cb, fontFamily: _family, fontPackage: _pkg);
   static const IconData dashboard_horizontal_fill =
-      IconData(0xf4cd, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4cc, fontFamily: _family, fontPackage: _pkg);
   static const IconData dashboard_horizontal_line =
-      IconData(0xf4ce, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4cd, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_diagonal_2_fill =
-      IconData(0xf4cf, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ce, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_diagonal_2_line =
-      IconData(0xf4d0, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4cf, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_diagonal_fill =
-      IconData(0xf4d1, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4d0, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_diagonal_line =
-      IconData(0xf4d2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData firebase_fill = IconData(0xf4d3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData firebase_line = IconData(0xf4d4, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4d1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData firebase_fill = IconData(0xf4d2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData firebase_line = IconData(0xf4d3, fontFamily: _family, fontPackage: _pkg);
   static const IconData flip_horizontal_2_fill =
-      IconData(0xf4d5, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4d4, fontFamily: _family, fontPackage: _pkg);
   static const IconData flip_horizontal_2_line =
-      IconData(0xf4d6, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4d5, fontFamily: _family, fontPackage: _pkg);
   static const IconData flip_horizontal_fill =
-      IconData(0xf4d7, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4d6, fontFamily: _family, fontPackage: _pkg);
   static const IconData flip_horizontal_line =
-      IconData(0xf4d8, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4d7, fontFamily: _family, fontPackage: _pkg);
   static const IconData flip_vertical_2_fill =
-      IconData(0xf4d9, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4d8, fontFamily: _family, fontPackage: _pkg);
   static const IconData flip_vertical_2_line =
-      IconData(0xf4da, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4d9, fontFamily: _family, fontPackage: _pkg);
   static const IconData flip_vertical_fill =
-      IconData(0xf4db, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4da, fontFamily: _family, fontPackage: _pkg);
   static const IconData flip_vertical_line =
-      IconData(0xf4dc, fontFamily: _family, fontPackage: _pkg);
-  static const IconData formula = IconData(0xf4dd, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4db, fontFamily: _family, fontPackage: _pkg);
+  static const IconData formula = IconData(0xf4dc, fontFamily: _family, fontPackage: _pkg);
   static const IconData function_add_fill =
-      IconData(0xf4de, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4dd, fontFamily: _family, fontPackage: _pkg);
   static const IconData function_add_line =
-      IconData(0xf4df, fontFamily: _family, fontPackage: _pkg);
-  static const IconData goblet_2_fill = IconData(0xf4e0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData goblet_2_line = IconData(0xf4e1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData golf_ball_fill = IconData(0xf4e2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData golf_ball_line = IconData(0xf4e3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData group_3_fill = IconData(0xf4e4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData group_3_line = IconData(0xf4e5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData heart_add_2_fill = IconData(0xf4e6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData heart_add_2_line = IconData(0xf4e7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData id_card_fill = IconData(0xf4e8, fontFamily: _family, fontPackage: _pkg);
-  static const IconData id_card_line = IconData(0xf4e9, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4de, fontFamily: _family, fontPackage: _pkg);
+  static const IconData goblet_2_fill = IconData(0xf4df, fontFamily: _family, fontPackage: _pkg);
+  static const IconData goblet_2_line = IconData(0xf4e0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData golf_ball_fill = IconData(0xf4e1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData golf_ball_line = IconData(0xf4e2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData group_3_fill = IconData(0xf4e3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData group_3_line = IconData(0xf4e4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData heart_add_2_fill = IconData(0xf4e5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData heart_add_2_line = IconData(0xf4e6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData id_card_fill = IconData(0xf4e7, fontFamily: _family, fontPackage: _pkg);
+  static const IconData id_card_line = IconData(0xf4e8, fontFamily: _family, fontPackage: _pkg);
   static const IconData information_off_fill =
-      IconData(0xf4ea, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4e9, fontFamily: _family, fontPackage: _pkg);
   static const IconData information_off_line =
-      IconData(0xf4eb, fontFamily: _family, fontPackage: _pkg);
-  static const IconData java_fill = IconData(0xf4ec, fontFamily: _family, fontPackage: _pkg);
-  static const IconData java_line = IconData(0xf4ed, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ea, fontFamily: _family, fontPackage: _pkg);
+  static const IconData java_fill = IconData(0xf4eb, fontFamily: _family, fontPackage: _pkg);
+  static const IconData java_line = IconData(0xf4ec, fontFamily: _family, fontPackage: _pkg);
   static const IconData layout_grid_2_fill =
-      IconData(0xf4ee, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ed, fontFamily: _family, fontPackage: _pkg);
   static const IconData layout_grid_2_line =
-      IconData(0xf4ef, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ee, fontFamily: _family, fontPackage: _pkg);
   static const IconData layout_horizontal_fill =
-      IconData(0xf4f0, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ef, fontFamily: _family, fontPackage: _pkg);
   static const IconData layout_horizontal_line =
-      IconData(0xf4f1, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4f0, fontFamily: _family, fontPackage: _pkg);
   static const IconData layout_vertical_fill =
-      IconData(0xf4f2, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4f1, fontFamily: _family, fontPackage: _pkg);
   static const IconData layout_vertical_line =
-      IconData(0xf4f3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData menu_fold_2_fill = IconData(0xf4f4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData menu_fold_2_line = IconData(0xf4f5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData menu_fold_3_fill = IconData(0xf4f6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData menu_fold_3_line = IconData(0xf4f7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData menu_fold_4_fill = IconData(0xf4f8, fontFamily: _family, fontPackage: _pkg);
-  static const IconData menu_fold_4_line = IconData(0xf4f9, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4f2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData menu_fold_2_fill = IconData(0xf4f3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData menu_fold_2_line = IconData(0xf4f4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData menu_fold_3_fill = IconData(0xf4f5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData menu_fold_3_line = IconData(0xf4f6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData menu_fold_4_fill = IconData(0xf4f7, fontFamily: _family, fontPackage: _pkg);
+  static const IconData menu_fold_4_line = IconData(0xf4f8, fontFamily: _family, fontPackage: _pkg);
   static const IconData menu_unfold_2_fill =
-      IconData(0xf4fa, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4f9, fontFamily: _family, fontPackage: _pkg);
   static const IconData menu_unfold_2_line =
-      IconData(0xf4fb, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4fa, fontFamily: _family, fontPackage: _pkg);
   static const IconData menu_unfold_3_fill =
-      IconData(0xf4fc, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4fb, fontFamily: _family, fontPackage: _pkg);
   static const IconData menu_unfold_3_line =
-      IconData(0xf4fd, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4fc, fontFamily: _family, fontPackage: _pkg);
   static const IconData menu_unfold_4_fill =
-      IconData(0xf4fe, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4fd, fontFamily: _family, fontPackage: _pkg);
   static const IconData menu_unfold_4_line =
-      IconData(0xf4ff, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4fe, fontFamily: _family, fontPackage: _pkg);
   static const IconData mobile_download_fill =
-      IconData(0xf500, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf4ff, fontFamily: _family, fontPackage: _pkg);
   static const IconData mobile_download_line =
-      IconData(0xf501, fontFamily: _family, fontPackage: _pkg);
-  static const IconData nextjs_fill = IconData(0xf502, fontFamily: _family, fontPackage: _pkg);
-  static const IconData nextjs_line = IconData(0xf503, fontFamily: _family, fontPackage: _pkg);
-  static const IconData nodejs_fill = IconData(0xf504, fontFamily: _family, fontPackage: _pkg);
-  static const IconData nodejs_line = IconData(0xf505, fontFamily: _family, fontPackage: _pkg);
-  static const IconData pause_large_fill = IconData(0xf506, fontFamily: _family, fontPackage: _pkg);
-  static const IconData pause_large_line = IconData(0xf507, fontFamily: _family, fontPackage: _pkg);
-  static const IconData play_large_fill = IconData(0xf508, fontFamily: _family, fontPackage: _pkg);
-  static const IconData play_large_line = IconData(0xf509, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf500, fontFamily: _family, fontPackage: _pkg);
+  static const IconData nextjs_fill = IconData(0xf501, fontFamily: _family, fontPackage: _pkg);
+  static const IconData nextjs_line = IconData(0xf502, fontFamily: _family, fontPackage: _pkg);
+  static const IconData nodejs_fill = IconData(0xf503, fontFamily: _family, fontPackage: _pkg);
+  static const IconData nodejs_line = IconData(0xf504, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pause_large_fill = IconData(0xf505, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pause_large_line = IconData(0xf506, fontFamily: _family, fontPackage: _pkg);
+  static const IconData play_large_fill = IconData(0xf507, fontFamily: _family, fontPackage: _pkg);
+  static const IconData play_large_line = IconData(0xf508, fontFamily: _family, fontPackage: _pkg);
   static const IconData play_reverse_large_fill =
-      IconData(0xf50a, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf509, fontFamily: _family, fontPackage: _pkg);
   static const IconData play_reverse_large_line =
-      IconData(0xf50b, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf50a, fontFamily: _family, fontPackage: _pkg);
   static const IconData police_badge_fill =
-      IconData(0xf50c, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf50b, fontFamily: _family, fontPackage: _pkg);
   static const IconData police_badge_line =
-      IconData(0xf50d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf50c, fontFamily: _family, fontPackage: _pkg);
   static const IconData prohibited_2_fill =
-      IconData(0xf50e, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf50d, fontFamily: _family, fontPackage: _pkg);
   static const IconData prohibited_2_line =
-      IconData(0xf50f, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf50e, fontFamily: _family, fontPackage: _pkg);
   static const IconData shopping_bag_4_fill =
-      IconData(0xf510, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf50f, fontFamily: _family, fontPackage: _pkg);
   static const IconData shopping_bag_4_line =
-      IconData(0xf511, fontFamily: _family, fontPackage: _pkg);
-  static const IconData snowflake_fill = IconData(0xf512, fontFamily: _family, fontPackage: _pkg);
-  static const IconData snowflake_line = IconData(0xf513, fontFamily: _family, fontPackage: _pkg);
-  static const IconData square_root = IconData(0xf514, fontFamily: _family, fontPackage: _pkg);
-  static const IconData stop_large_fill = IconData(0xf515, fontFamily: _family, fontPackage: _pkg);
-  static const IconData stop_large_line = IconData(0xf516, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf510, fontFamily: _family, fontPackage: _pkg);
+  static const IconData snowflake_fill = IconData(0xf511, fontFamily: _family, fontPackage: _pkg);
+  static const IconData snowflake_line = IconData(0xf512, fontFamily: _family, fontPackage: _pkg);
+  static const IconData square_root = IconData(0xf513, fontFamily: _family, fontPackage: _pkg);
+  static const IconData stop_large_fill = IconData(0xf514, fontFamily: _family, fontPackage: _pkg);
+  static const IconData stop_large_line = IconData(0xf515, fontFamily: _family, fontPackage: _pkg);
   static const IconData tailwind_css_fill =
-      IconData(0xf517, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf516, fontFamily: _family, fontPackage: _pkg);
   static const IconData tailwind_css_line =
-      IconData(0xf518, fontFamily: _family, fontPackage: _pkg);
-  static const IconData tooth_fill = IconData(0xf519, fontFamily: _family, fontPackage: _pkg);
-  static const IconData tooth_line = IconData(0xf51a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData video_off_fill = IconData(0xf51b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData video_off_line = IconData(0xf51c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData video_on_fill = IconData(0xf51d, fontFamily: _family, fontPackage: _pkg);
-  static const IconData video_on_line = IconData(0xf51e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData webhook_fill = IconData(0xf51f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData webhook_line = IconData(0xf520, fontFamily: _family, fontPackage: _pkg);
-  static const IconData weight_fill = IconData(0xf521, fontFamily: _family, fontPackage: _pkg);
-  static const IconData weight_line = IconData(0xf522, fontFamily: _family, fontPackage: _pkg);
-  static const IconData book_shelf_fill = IconData(0xf523, fontFamily: _family, fontPackage: _pkg);
-  static const IconData book_shelf_line = IconData(0xf524, fontFamily: _family, fontPackage: _pkg);
-  static const IconData brain_2_fill = IconData(0xf525, fontFamily: _family, fontPackage: _pkg);
-  static const IconData brain_2_line = IconData(0xf526, fontFamily: _family, fontPackage: _pkg);
-  static const IconData chat_search_fill = IconData(0xf527, fontFamily: _family, fontPackage: _pkg);
-  static const IconData chat_search_line = IconData(0xf528, fontFamily: _family, fontPackage: _pkg);
-  static const IconData chat_unread_fill = IconData(0xf529, fontFamily: _family, fontPackage: _pkg);
-  static const IconData chat_unread_line = IconData(0xf52a, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf517, fontFamily: _family, fontPackage: _pkg);
+  static const IconData tooth_fill = IconData(0xf518, fontFamily: _family, fontPackage: _pkg);
+  static const IconData tooth_line = IconData(0xf519, fontFamily: _family, fontPackage: _pkg);
+  static const IconData video_off_fill = IconData(0xf51a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData video_off_line = IconData(0xf51b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData video_on_fill = IconData(0xf51c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData video_on_line = IconData(0xf51d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData webhook_fill = IconData(0xf51e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData webhook_line = IconData(0xf51f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData weight_fill = IconData(0xf520, fontFamily: _family, fontPackage: _pkg);
+  static const IconData weight_line = IconData(0xf521, fontFamily: _family, fontPackage: _pkg);
+  static const IconData book_shelf_fill = IconData(0xf522, fontFamily: _family, fontPackage: _pkg);
+  static const IconData book_shelf_line = IconData(0xf523, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brain_2_fill = IconData(0xf524, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brain_2_line = IconData(0xf525, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_search_fill = IconData(0xf526, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_search_line = IconData(0xf527, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_unread_fill = IconData(0xf528, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_unread_line = IconData(0xf529, fontFamily: _family, fontPackage: _pkg);
   static const IconData collapse_horizontal_fill =
-      IconData(0xf52b, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf52a, fontFamily: _family, fontPackage: _pkg);
   static const IconData collapse_horizontal_line =
-      IconData(0xf52c, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf52b, fontFamily: _family, fontPackage: _pkg);
   static const IconData collapse_vertical_fill =
-      IconData(0xf52d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf52c, fontFamily: _family, fontPackage: _pkg);
   static const IconData collapse_vertical_line =
-      IconData(0xf52e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dna_fill = IconData(0xf52f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dna_line = IconData(0xf530, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dropper_fill = IconData(0xf531, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dropper_line = IconData(0xf532, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf52d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dna_fill = IconData(0xf52e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dna_line = IconData(0xf52f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dropper_fill = IconData(0xf530, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dropper_line = IconData(0xf531, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_diagonal_s_2_fill =
-      IconData(0xf533, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf532, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_diagonal_s_2_line =
-      IconData(0xf534, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf533, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_diagonal_s_fill =
-      IconData(0xf535, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf534, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_diagonal_s_line =
-      IconData(0xf536, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf535, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_horizontal_fill =
-      IconData(0xf537, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf536, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_horizontal_line =
-      IconData(0xf538, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf537, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_horizontal_s_fill =
-      IconData(0xf539, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf538, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_horizontal_s_line =
-      IconData(0xf53a, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf539, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_vertical_fill =
-      IconData(0xf53b, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf53a, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_vertical_line =
-      IconData(0xf53c, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf53b, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_vertical_s_fill =
-      IconData(0xf53d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf53c, fontFamily: _family, fontPackage: _pkg);
   static const IconData expand_vertical_s_line =
-      IconData(0xf53e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData gemini_fill = IconData(0xf53f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData gemini_line = IconData(0xf540, fontFamily: _family, fontPackage: _pkg);
-  static const IconData reset_left_fill = IconData(0xf541, fontFamily: _family, fontPackage: _pkg);
-  static const IconData reset_left_line = IconData(0xf542, fontFamily: _family, fontPackage: _pkg);
-  static const IconData reset_right_fill = IconData(0xf543, fontFamily: _family, fontPackage: _pkg);
-  static const IconData reset_right_line = IconData(0xf544, fontFamily: _family, fontPackage: _pkg);
-  static const IconData stairs_fill = IconData(0xf545, fontFamily: _family, fontPackage: _pkg);
-  static const IconData stairs_line = IconData(0xf546, fontFamily: _family, fontPackage: _pkg);
-  static const IconData telegram_2_fill = IconData(0xf547, fontFamily: _family, fontPackage: _pkg);
-  static const IconData telegram_2_line = IconData(0xf548, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf53d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData gemini_fill = IconData(0xf53e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData gemini_line = IconData(0xf53f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData reset_left_fill = IconData(0xf540, fontFamily: _family, fontPackage: _pkg);
+  static const IconData reset_left_line = IconData(0xf541, fontFamily: _family, fontPackage: _pkg);
+  static const IconData reset_right_fill = IconData(0xf542, fontFamily: _family, fontPackage: _pkg);
+  static const IconData reset_right_line = IconData(0xf543, fontFamily: _family, fontPackage: _pkg);
+  static const IconData stairs_fill = IconData(0xf544, fontFamily: _family, fontPackage: _pkg);
+  static const IconData stairs_line = IconData(0xf545, fontFamily: _family, fontPackage: _pkg);
+  static const IconData telegram_2_fill = IconData(0xf546, fontFamily: _family, fontPackage: _pkg);
+  static const IconData telegram_2_line = IconData(0xf547, fontFamily: _family, fontPackage: _pkg);
   static const IconData triangular_flag_fill =
-      IconData(0xf549, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf548, fontFamily: _family, fontPackage: _pkg);
   static const IconData triangular_flag_line =
-      IconData(0xf54a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData user_minus_fill = IconData(0xf54b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData user_minus_line = IconData(0xf54c, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf549, fontFamily: _family, fontPackage: _pkg);
+  static const IconData user_minus_fill = IconData(0xf54a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData user_minus_line = IconData(0xf54b, fontFamily: _family, fontPackage: _pkg);
   static const IconData account_box_2_fill =
-      IconData(0xf54d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf54c, fontFamily: _family, fontPackage: _pkg);
   static const IconData account_box_2_line =
-      IconData(0xf54e, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf54d, fontFamily: _family, fontPackage: _pkg);
   static const IconData account_circle_2_fill =
-      IconData(0xf54f, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf54e, fontFamily: _family, fontPackage: _pkg);
   static const IconData account_circle_2_line =
-      IconData(0xf550, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf54f, fontFamily: _family, fontPackage: _pkg);
   static const IconData alarm_snooze_fill =
-      IconData(0xf551, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf550, fontFamily: _family, fontPackage: _pkg);
   static const IconData alarm_snooze_line =
-      IconData(0xf552, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf551, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_down_box_fill =
-      IconData(0xf553, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf552, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_down_box_line =
-      IconData(0xf554, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf553, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_box_fill =
-      IconData(0xf555, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf554, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_box_line =
-      IconData(0xf556, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf555, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_down_box_fill =
-      IconData(0xf557, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf556, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_down_box_line =
-      IconData(0xf558, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf557, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_up_box_fill =
-      IconData(0xf559, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf558, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_up_box_line =
-      IconData(0xf55a, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf559, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_box_fill =
-      IconData(0xf55b, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf55a, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_box_line =
-      IconData(0xf55c, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf55b, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_down_box_fill =
-      IconData(0xf55d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf55c, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_down_box_line =
-      IconData(0xf55e, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf55d, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_up_box_fill =
-      IconData(0xf55f, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf55e, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_up_box_line =
-      IconData(0xf560, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf55f, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_up_box_fill =
-      IconData(0xf561, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf560, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_up_box_line =
-      IconData(0xf562, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf561, fontFamily: _family, fontPackage: _pkg);
   static const IconData bar_chart_box_ai_fill =
-      IconData(0xf563, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf562, fontFamily: _family, fontPackage: _pkg);
   static const IconData bar_chart_box_ai_line =
-      IconData(0xf564, fontFamily: _family, fontPackage: _pkg);
-  static const IconData brush_ai_fill = IconData(0xf565, fontFamily: _family, fontPackage: _pkg);
-  static const IconData brush_ai_line = IconData(0xf566, fontFamily: _family, fontPackage: _pkg);
-  static const IconData camera_ai_fill = IconData(0xf567, fontFamily: _family, fontPackage: _pkg);
-  static const IconData camera_ai_line = IconData(0xf568, fontFamily: _family, fontPackage: _pkg);
-  static const IconData chat_ai_fill = IconData(0xf569, fontFamily: _family, fontPackage: _pkg);
-  static const IconData chat_ai_line = IconData(0xf56a, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf563, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brush_ai_fill = IconData(0xf564, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brush_ai_line = IconData(0xf565, fontFamily: _family, fontPackage: _pkg);
+  static const IconData camera_ai_fill = IconData(0xf566, fontFamily: _family, fontPackage: _pkg);
+  static const IconData camera_ai_line = IconData(0xf567, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_ai_fill = IconData(0xf568, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_ai_line = IconData(0xf569, fontFamily: _family, fontPackage: _pkg);
   static const IconData chat_smile_ai_fill =
-      IconData(0xf56b, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf56a, fontFamily: _family, fontPackage: _pkg);
   static const IconData chat_smile_ai_line =
-      IconData(0xf56c, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf56b, fontFamily: _family, fontPackage: _pkg);
   static const IconData chat_voice_ai_fill =
-      IconData(0xf56d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf56c, fontFamily: _family, fontPackage: _pkg);
   static const IconData chat_voice_ai_line =
-      IconData(0xf56e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData code_ai_fill = IconData(0xf56f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData code_ai_line = IconData(0xf570, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf56d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData code_ai_fill = IconData(0xf56e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData code_ai_line = IconData(0xf56f, fontFamily: _family, fontPackage: _pkg);
   static const IconData color_filter_ai_fill =
-      IconData(0xf571, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf570, fontFamily: _family, fontPackage: _pkg);
   static const IconData color_filter_ai_line =
-      IconData(0xf572, fontFamily: _family, fontPackage: _pkg);
-  static const IconData custom_size = IconData(0xf573, fontFamily: _family, fontPackage: _pkg);
-  static const IconData fediverse_fill = IconData(0xf574, fontFamily: _family, fontPackage: _pkg);
-  static const IconData fediverse_line = IconData(0xf575, fontFamily: _family, fontPackage: _pkg);
-  static const IconData flag_off_fill = IconData(0xf576, fontFamily: _family, fontPackage: _pkg);
-  static const IconData flag_off_line = IconData(0xf577, fontFamily: _family, fontPackage: _pkg);
-  static const IconData home_9_fill = IconData(0xf578, fontFamily: _family, fontPackage: _pkg);
-  static const IconData home_9_line = IconData(0xf579, fontFamily: _family, fontPackage: _pkg);
-  static const IconData image_ai_fill = IconData(0xf57a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData image_ai_line = IconData(0xf57b, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf571, fontFamily: _family, fontPackage: _pkg);
+  static const IconData custom_size = IconData(0xf572, fontFamily: _family, fontPackage: _pkg);
+  static const IconData fediverse_fill = IconData(0xf573, fontFamily: _family, fontPackage: _pkg);
+  static const IconData fediverse_line = IconData(0xf574, fontFamily: _family, fontPackage: _pkg);
+  static const IconData flag_off_fill = IconData(0xf575, fontFamily: _family, fontPackage: _pkg);
+  static const IconData flag_off_line = IconData(0xf576, fontFamily: _family, fontPackage: _pkg);
+  static const IconData home_9_fill = IconData(0xf577, fontFamily: _family, fontPackage: _pkg);
+  static const IconData home_9_line = IconData(0xf578, fontFamily: _family, fontPackage: _pkg);
+  static const IconData image_ai_fill = IconData(0xf579, fontFamily: _family, fontPackage: _pkg);
+  static const IconData image_ai_line = IconData(0xf57a, fontFamily: _family, fontPackage: _pkg);
   static const IconData image_circle_ai_fill =
-      IconData(0xf57c, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf57b, fontFamily: _family, fontPackage: _pkg);
   static const IconData image_circle_ai_line =
-      IconData(0xf57d, fontFamily: _family, fontPackage: _pkg);
-  static const IconData info_card_fill = IconData(0xf57e, fontFamily: _family, fontPackage: _pkg);
-  static const IconData info_card_line = IconData(0xf57f, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf57c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData info_card_fill = IconData(0xf57d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData info_card_line = IconData(0xf57e, fontFamily: _family, fontPackage: _pkg);
   static const IconData landscape_ai_fill =
-      IconData(0xf580, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf57f, fontFamily: _family, fontPackage: _pkg);
   static const IconData landscape_ai_line =
-      IconData(0xf581, fontFamily: _family, fontPackage: _pkg);
-  static const IconData letter_spacing_2 = IconData(0xf582, fontFamily: _family, fontPackage: _pkg);
-  static const IconData line_height_2 = IconData(0xf583, fontFamily: _family, fontPackage: _pkg);
-  static const IconData mail_ai_fill = IconData(0xf584, fontFamily: _family, fontPackage: _pkg);
-  static const IconData mail_ai_line = IconData(0xf585, fontFamily: _family, fontPackage: _pkg);
-  static const IconData mic_2_ai_fill = IconData(0xf586, fontFamily: _family, fontPackage: _pkg);
-  static const IconData mic_2_ai_line = IconData(0xf587, fontFamily: _family, fontPackage: _pkg);
-  static const IconData mic_ai_fill = IconData(0xf588, fontFamily: _family, fontPackage: _pkg);
-  static const IconData mic_ai_line = IconData(0xf589, fontFamily: _family, fontPackage: _pkg);
-  static const IconData movie_ai_fill = IconData(0xf58a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData movie_ai_line = IconData(0xf58b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData music_ai_fill = IconData(0xf58c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData music_ai_line = IconData(0xf58d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf580, fontFamily: _family, fontPackage: _pkg);
+  static const IconData letter_spacing_2 = IconData(0xf581, fontFamily: _family, fontPackage: _pkg);
+  static const IconData line_height_2 = IconData(0xf582, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mail_ai_fill = IconData(0xf583, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mail_ai_line = IconData(0xf584, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mic_2_ai_fill = IconData(0xf585, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mic_2_ai_line = IconData(0xf586, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mic_ai_fill = IconData(0xf587, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mic_ai_line = IconData(0xf588, fontFamily: _family, fontPackage: _pkg);
+  static const IconData movie_ai_fill = IconData(0xf589, fontFamily: _family, fontPackage: _pkg);
+  static const IconData movie_ai_line = IconData(0xf58a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData music_ai_fill = IconData(0xf58b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData music_ai_line = IconData(0xf58c, fontFamily: _family, fontPackage: _pkg);
   static const IconData notification_snooze_fill =
-      IconData(0xf58e, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf58d, fontFamily: _family, fontPackage: _pkg);
   static const IconData notification_snooze_line =
-      IconData(0xf58f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData php_fill = IconData(0xf590, fontFamily: _family, fontPackage: _pkg);
-  static const IconData php_line = IconData(0xf591, fontFamily: _family, fontPackage: _pkg);
-  static const IconData pix_fill = IconData(0xf592, fontFamily: _family, fontPackage: _pkg);
-  static const IconData pix_line = IconData(0xf593, fontFamily: _family, fontPackage: _pkg);
-  static const IconData pulse_ai_fill = IconData(0xf594, fontFamily: _family, fontPackage: _pkg);
-  static const IconData pulse_ai_line = IconData(0xf595, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf58e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData php_fill = IconData(0xf58f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData php_line = IconData(0xf590, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pix_fill = IconData(0xf591, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pix_line = IconData(0xf592, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pulse_ai_fill = IconData(0xf593, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pulse_ai_line = IconData(0xf594, fontFamily: _family, fontPackage: _pkg);
   static const IconData quill_pen_ai_fill =
-      IconData(0xf596, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf595, fontFamily: _family, fontPackage: _pkg);
   static const IconData quill_pen_ai_line =
-      IconData(0xf597, fontFamily: _family, fontPackage: _pkg);
-  static const IconData speak_ai_fill = IconData(0xf598, fontFamily: _family, fontPackage: _pkg);
-  static const IconData speak_ai_line = IconData(0xf599, fontFamily: _family, fontPackage: _pkg);
-  static const IconData star_off_fill = IconData(0xf59a, fontFamily: _family, fontPackage: _pkg);
-  static const IconData star_off_line = IconData(0xf59b, fontFamily: _family, fontPackage: _pkg);
-  static const IconData translate_ai_2 = IconData(0xf59c, fontFamily: _family, fontPackage: _pkg);
-  static const IconData translate_ai = IconData(0xf59d, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf596, fontFamily: _family, fontPackage: _pkg);
+  static const IconData speak_ai_fill = IconData(0xf597, fontFamily: _family, fontPackage: _pkg);
+  static const IconData speak_ai_line = IconData(0xf598, fontFamily: _family, fontPackage: _pkg);
+  static const IconData star_off_fill = IconData(0xf599, fontFamily: _family, fontPackage: _pkg);
+  static const IconData star_off_line = IconData(0xf59a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData translate_ai_2 = IconData(0xf59b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData translate_ai = IconData(0xf59c, fontFamily: _family, fontPackage: _pkg);
   static const IconData user_community_fill =
-      IconData(0xf59e, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf59d, fontFamily: _family, fontPackage: _pkg);
   static const IconData user_community_line =
-      IconData(0xf59f, fontFamily: _family, fontPackage: _pkg);
-  static const IconData vercel_fill = IconData(0xf5a0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData vercel_line = IconData(0xf5a1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData video_ai_fill = IconData(0xf5a2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData video_ai_line = IconData(0xf5a3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData video_on_ai_fill = IconData(0xf5a4, fontFamily: _family, fontPackage: _pkg);
-  static const IconData video_on_ai_line = IconData(0xf5a5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData voice_ai_fill = IconData(0xf5a6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData voice_ai_line = IconData(0xf5a7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData ai_generate_2 = IconData(0xf5a8, fontFamily: _family, fontPackage: _pkg);
-  static const IconData ai_generate_text = IconData(0xf5a9, fontFamily: _family, fontPackage: _pkg);
-  static const IconData anthropic_fill = IconData(0xf5aa, fontFamily: _family, fontPackage: _pkg);
-  static const IconData anthropic_line = IconData(0xf5ab, fontFamily: _family, fontPackage: _pkg);
-  static const IconData apps_2_ai_fill = IconData(0xf5ac, fontFamily: _family, fontPackage: _pkg);
-  static const IconData apps_2_ai_line = IconData(0xf5ad, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf59e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData vercel_fill = IconData(0xf59f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData vercel_line = IconData(0xf5a0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData video_ai_fill = IconData(0xf5a1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData video_ai_line = IconData(0xf5a2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData video_on_ai_fill = IconData(0xf5a3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData video_on_ai_line = IconData(0xf5a4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData voice_ai_fill = IconData(0xf5a5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData voice_ai_line = IconData(0xf5a6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ai_generate_2 = IconData(0xf5a7, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ai_generate_text = IconData(0xf5a8, fontFamily: _family, fontPackage: _pkg);
+  static const IconData anthropic_fill = IconData(0xf5a9, fontFamily: _family, fontPackage: _pkg);
+  static const IconData anthropic_line = IconData(0xf5aa, fontFamily: _family, fontPackage: _pkg);
+  static const IconData apps_2_ai_fill = IconData(0xf5ab, fontFamily: _family, fontPackage: _pkg);
+  static const IconData apps_2_ai_line = IconData(0xf5ac, fontFamily: _family, fontPackage: _pkg);
   static const IconData camera_lens_ai_fill =
-      IconData(0xf5ae, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5ad, fontFamily: _family, fontPackage: _pkg);
   static const IconData camera_lens_ai_line =
-      IconData(0xf5af, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5ae, fontFamily: _family, fontPackage: _pkg);
   static const IconData clapperboard_ai_fill =
-      IconData(0xf5b0, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5af, fontFamily: _family, fontPackage: _pkg);
   static const IconData clapperboard_ai_line =
-      IconData(0xf5b1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData claude_fill = IconData(0xf5b2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData claude_line = IconData(0xf5b3, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5b0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData claude_fill = IconData(0xf5b1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData claude_line = IconData(0xf5b2, fontFamily: _family, fontPackage: _pkg);
   static const IconData closed_captioning_ai_fill =
-      IconData(0xf5b4, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5b3, fontFamily: _family, fontPackage: _pkg);
   static const IconData closed_captioning_ai_line =
-      IconData(0xf5b5, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dvd_ai_fill = IconData(0xf5b6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData dvd_ai_line = IconData(0xf5b7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData film_ai_fill = IconData(0xf5b8, fontFamily: _family, fontPackage: _pkg);
-  static const IconData film_ai_line = IconData(0xf5b9, fontFamily: _family, fontPackage: _pkg);
-  static const IconData font_size_ai = IconData(0xf5ba, fontFamily: _family, fontPackage: _pkg);
-  static const IconData mixtral_fill = IconData(0xf5bb, fontFamily: _family, fontPackage: _pkg);
-  static const IconData mixtral_line = IconData(0xf5bc, fontFamily: _family, fontPackage: _pkg);
-  static const IconData movie_2_ai_fill = IconData(0xf5bd, fontFamily: _family, fontPackage: _pkg);
-  static const IconData movie_2_ai_line = IconData(0xf5be, fontFamily: _family, fontPackage: _pkg);
-  static const IconData mv_ai_fill = IconData(0xf5bf, fontFamily: _family, fontPackage: _pkg);
-  static const IconData mv_ai_line = IconData(0xf5c0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData perplexity_fill = IconData(0xf5c1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData perplexity_line = IconData(0xf5c2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData poker_clubs_fill = IconData(0xf5c3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData poker_clubs_line = IconData(0xf5c4, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5b4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dvd_ai_fill = IconData(0xf5b5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData dvd_ai_line = IconData(0xf5b6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData film_ai_fill = IconData(0xf5b7, fontFamily: _family, fontPackage: _pkg);
+  static const IconData film_ai_line = IconData(0xf5b8, fontFamily: _family, fontPackage: _pkg);
+  static const IconData font_size_ai = IconData(0xf5b9, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mixtral_fill = IconData(0xf5ba, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mixtral_line = IconData(0xf5bb, fontFamily: _family, fontPackage: _pkg);
+  static const IconData movie_2_ai_fill = IconData(0xf5bc, fontFamily: _family, fontPackage: _pkg);
+  static const IconData movie_2_ai_line = IconData(0xf5bd, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mv_ai_fill = IconData(0xf5be, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mv_ai_line = IconData(0xf5bf, fontFamily: _family, fontPackage: _pkg);
+  static const IconData perplexity_fill = IconData(0xf5c0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData perplexity_line = IconData(0xf5c1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData poker_clubs_fill = IconData(0xf5c2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData poker_clubs_line = IconData(0xf5c3, fontFamily: _family, fontPackage: _pkg);
   static const IconData poker_diamonds_fill =
-      IconData(0xf5c5, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5c4, fontFamily: _family, fontPackage: _pkg);
   static const IconData poker_diamonds_line =
-      IconData(0xf5c6, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5c5, fontFamily: _family, fontPackage: _pkg);
   static const IconData poker_hearts_fill =
-      IconData(0xf5c7, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5c6, fontFamily: _family, fontPackage: _pkg);
   static const IconData poker_hearts_line =
-      IconData(0xf5c8, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5c7, fontFamily: _family, fontPackage: _pkg);
   static const IconData poker_spades_fill =
-      IconData(0xf5c9, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5c8, fontFamily: _family, fontPackage: _pkg);
   static const IconData poker_spades_line =
-      IconData(0xf5ca, fontFamily: _family, fontPackage: _pkg);
-  static const IconData safe_3_fill = IconData(0xf5cb, fontFamily: _family, fontPackage: _pkg);
-  static const IconData safe_3_line = IconData(0xf5cc, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5c9, fontFamily: _family, fontPackage: _pkg);
+  static const IconData safe_3_fill = IconData(0xf5ca, fontFamily: _family, fontPackage: _pkg);
+  static const IconData safe_3_line = IconData(0xf5cb, fontFamily: _family, fontPackage: _pkg);
   static const IconData accessibility_fill =
-      IconData(0xf5cd, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5cc, fontFamily: _family, fontPackage: _pkg);
   static const IconData accessibility_line =
-      IconData(0xf5ce, fontFamily: _family, fontPackage: _pkg);
-  static const IconData alarm_add_fill = IconData(0xf5cf, fontFamily: _family, fontPackage: _pkg);
-  static const IconData alarm_add_line = IconData(0xf5d0, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5cd, fontFamily: _family, fontPackage: _pkg);
+  static const IconData alarm_add_fill = IconData(0xf5ce, fontFamily: _family, fontPackage: _pkg);
+  static const IconData alarm_add_line = IconData(0xf5cf, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_down_long_fill =
-      IconData(0xf5d1, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5d0, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_down_long_line =
-      IconData(0xf5d2, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5d1, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_down_long_fill =
-      IconData(0xf5d3, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5d2, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_down_long_line =
-      IconData(0xf5d4, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5d3, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_long_fill =
-      IconData(0xf5d5, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5d4, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_long_line =
-      IconData(0xf5d6, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5d5, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_up_long_fill =
-      IconData(0xf5d7, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5d6, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_left_up_long_line =
-      IconData(0xf5d8, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5d7, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_down_long_fill =
-      IconData(0xf5d9, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5d8, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_down_long_line =
-      IconData(0xf5da, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5d9, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_long_fill =
-      IconData(0xf5db, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5da, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_long_line =
-      IconData(0xf5dc, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5db, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_up_long_fill =
-      IconData(0xf5dd, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5dc, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_right_up_long_line =
-      IconData(0xf5de, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5dd, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_up_long_fill =
-      IconData(0xf5df, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5de, fontFamily: _family, fontPackage: _pkg);
   static const IconData arrow_up_long_line =
-      IconData(0xf5e0, fontFamily: _family, fontPackage: _pkg);
-  static const IconData chess_fill = IconData(0xf5e1, fontFamily: _family, fontPackage: _pkg);
-  static const IconData chess_line = IconData(0xf5e2, fontFamily: _family, fontPackage: _pkg);
-  static const IconData diamond_fill = IconData(0xf5e3, fontFamily: _family, fontPackage: _pkg);
-  static const IconData diamond_line = IconData(0xf5e4, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5df, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chess_fill = IconData(0xf5e0, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chess_line = IconData(0xf5e1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData diamond_fill = IconData(0xf5e2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData diamond_line = IconData(0xf5e3, fontFamily: _family, fontPackage: _pkg);
   static const IconData diamond_ring_fill =
-      IconData(0xf5e5, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5e4, fontFamily: _family, fontPackage: _pkg);
   static const IconData diamond_ring_line =
-      IconData(0xf5e6, fontFamily: _family, fontPackage: _pkg);
-  static const IconData figma_fill = IconData(0xf5e7, fontFamily: _family, fontPackage: _pkg);
-  static const IconData figma_line = IconData(0xf5e8, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5e5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData figma_fill = IconData(0xf5e6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData figma_line = IconData(0xf5e7, fontFamily: _family, fontPackage: _pkg);
   static const IconData firefox_browser_fill =
-      IconData(0xf5e9, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5e8, fontFamily: _family, fontPackage: _pkg);
   static const IconData firefox_browser_line =
-      IconData(0xf5ea, fontFamily: _family, fontPackage: _pkg);
-  static const IconData jewelry_fill = IconData(0xf5eb, fontFamily: _family, fontPackage: _pkg);
-  static const IconData jewelry_line = IconData(0xf5ec, fontFamily: _family, fontPackage: _pkg);
-  static const IconData multi_image_fill = IconData(0xf5ed, fontFamily: _family, fontPackage: _pkg);
-  static const IconData multi_image_line = IconData(0xf5ee, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5e9, fontFamily: _family, fontPackage: _pkg);
+  static const IconData jewelry_fill = IconData(0xf5ea, fontFamily: _family, fontPackage: _pkg);
+  static const IconData jewelry_line = IconData(0xf5eb, fontFamily: _family, fontPackage: _pkg);
+  static const IconData multi_image_fill = IconData(0xf5ec, fontFamily: _family, fontPackage: _pkg);
+  static const IconData multi_image_line = IconData(0xf5ed, fontFamily: _family, fontPackage: _pkg);
   static const IconData no_credit_card_fill =
-      IconData(0xf5ef, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5ee, fontFamily: _family, fontPackage: _pkg);
   static const IconData no_credit_card_line =
-      IconData(0xf5f0, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5ef, fontFamily: _family, fontPackage: _pkg);
   static const IconData service_bell_fill =
-      IconData(0xf5f1, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5f0, fontFamily: _family, fontPackage: _pkg);
   static const IconData service_bell_line =
-      IconData(0xf5f2, fontFamily: _family, fontPackage: _pkg);
+      IconData(0xf5f1, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ai_agent_fill = IconData(0xf5f2, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ai_agent_line = IconData(0xf5f3, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ai_generate_2_fill =
+      IconData(0xf5f4, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ai_generate_2_line =
+      IconData(0xf5f5, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ai_generate_3d_fill =
+      IconData(0xf5f6, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ai_generate_3d_line =
+      IconData(0xf5f7, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ai = IconData(0xf5f8, fontFamily: _family, fontPackage: _pkg);
+  static const IconData apps_ai_fill = IconData(0xf5f9, fontFamily: _family, fontPackage: _pkg);
+  static const IconData apps_ai_line = IconData(0xf5fa, fontFamily: _family, fontPackage: _pkg);
+  static const IconData atom_fill = IconData(0xf5fb, fontFamily: _family, fontPackage: _pkg);
+  static const IconData atom_line = IconData(0xf5fc, fontFamily: _family, fontPackage: _pkg);
+  static const IconData book_ai_fill = IconData(0xf5fd, fontFamily: _family, fontPackage: _pkg);
+  static const IconData book_ai_line = IconData(0xf5fe, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brain_3_fill = IconData(0xf5ff, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brain_3_line = IconData(0xf600, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brain_ai_3_fill = IconData(0xf601, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brain_ai_3_line = IconData(0xf602, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brush_ai_3_fill = IconData(0xf603, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brush_ai_3_line = IconData(0xf604, fontFamily: _family, fontPackage: _pkg);
+  static const IconData camera_4_fill = IconData(0xf605, fontFamily: _family, fontPackage: _pkg);
+  static const IconData camera_4_line = IconData(0xf606, fontFamily: _family, fontPackage: _pkg);
+  static const IconData camera_ai_2_fill = IconData(0xf607, fontFamily: _family, fontPackage: _pkg);
+  static const IconData camera_ai_2_line = IconData(0xf608, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_ai_2_fill = IconData(0xf609, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_ai_2_line = IconData(0xf60a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_ai_3_fill = IconData(0xf60b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_ai_3_line = IconData(0xf60c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_ai_4_fill = IconData(0xf60d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_ai_4_line = IconData(0xf60e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_smile_ai_3_fill =
+      IconData(0xf60f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData chat_smile_ai_3_line =
+      IconData(0xf610, fontFamily: _family, fontPackage: _pkg);
+  static const IconData deepseek_fill = IconData(0xf611, fontFamily: _family, fontPackage: _pkg);
+  static const IconData deepseek_line = IconData(0xf612, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_ai_2_fill = IconData(0xf613, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_ai_2_line = IconData(0xf614, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_ai_fill = IconData(0xf615, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_ai_line = IconData(0xf616, fontFamily: _family, fontPackage: _pkg);
+  static const IconData function_ai_fill = IconData(0xf617, fontFamily: _family, fontPackage: _pkg);
+  static const IconData function_ai_line = IconData(0xf618, fontFamily: _family, fontPackage: _pkg);
+  static const IconData game_2_fill = IconData(0xf619, fontFamily: _family, fontPackage: _pkg);
+  static const IconData game_2_line = IconData(0xf61a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData goblet_broken_fill =
+      IconData(0xf61b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData goblet_broken_line =
+      IconData(0xf61c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData lightbulb_ai_fill =
+      IconData(0xf61d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData lightbulb_ai_line =
+      IconData(0xf61e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData loop_left_ai_fill =
+      IconData(0xf61f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData loop_left_ai_line =
+      IconData(0xf620, fontFamily: _family, fontPackage: _pkg);
+  static const IconData loop_right_ai_fill =
+      IconData(0xf621, fontFamily: _family, fontPackage: _pkg);
+  static const IconData loop_right_ai_line =
+      IconData(0xf622, fontFamily: _family, fontPackage: _pkg);
+  static const IconData message_ai_3_fill =
+      IconData(0xf623, fontFamily: _family, fontPackage: _pkg);
+  static const IconData message_ai_3_line =
+      IconData(0xf624, fontFamily: _family, fontPackage: _pkg);
+  static const IconData painting_ai_fill = IconData(0xf625, fontFamily: _family, fontPackage: _pkg);
+  static const IconData painting_ai_line = IconData(0xf626, fontFamily: _family, fontPackage: _pkg);
+  static const IconData painting_fill = IconData(0xf627, fontFamily: _family, fontPackage: _pkg);
+  static const IconData painting_line = IconData(0xf628, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pencil_ai_2_fill = IconData(0xf629, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pencil_ai_2_line = IconData(0xf62a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pencil_ai_fill = IconData(0xf62b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData pencil_ai_line = IconData(0xf62c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData remix_fill = IconData(0xf62d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData remix_line = IconData(0xf62e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData search_ai_2_fill = IconData(0xf62f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData search_ai_2_line = IconData(0xf630, fontFamily: _family, fontPackage: _pkg);
+  static const IconData search_ai_3_fill = IconData(0xf631, fontFamily: _family, fontPackage: _pkg);
+  static const IconData search_ai_3_line = IconData(0xf632, fontFamily: _family, fontPackage: _pkg);
+  static const IconData search_ai_4_fill = IconData(0xf633, fontFamily: _family, fontPackage: _pkg);
+  static const IconData search_ai_4_line = IconData(0xf634, fontFamily: _family, fontPackage: _pkg);
+  static const IconData search_ai_fill = IconData(0xf635, fontFamily: _family, fontPackage: _pkg);
+  static const IconData search_ai_line = IconData(0xf636, fontFamily: _family, fontPackage: _pkg);
+  static const IconData speech_to_text_fill =
+      IconData(0xf637, fontFamily: _family, fontPackage: _pkg);
+  static const IconData speech_to_text_line =
+      IconData(0xf638, fontFamily: _family, fontPackage: _pkg);
+  static const IconData target_fill = IconData(0xf639, fontFamily: _family, fontPackage: _pkg);
+  static const IconData target_line = IconData(0xf63a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData text_to_speech_fill =
+      IconData(0xf63b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData text_to_speech_line =
+      IconData(0xf63c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData wrench_fill = IconData(0xf63d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData wrench_line = IconData(0xf63e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData area_chart_fill = IconData(0xf63f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData area_chart_line = IconData(0xf640, fontFamily: _family, fontPackage: _pkg);
+  static const IconData baseball_fill = IconData(0xf641, fontFamily: _family, fontPackage: _pkg);
+  static const IconData baseball_line = IconData(0xf642, fontFamily: _family, fontPackage: _pkg);
+  static const IconData binoculars_fill = IconData(0xf643, fontFamily: _family, fontPackage: _pkg);
+  static const IconData binoculars_line = IconData(0xf644, fontFamily: _family, fontPackage: _pkg);
+  static const IconData cursor_hand = IconData(0xf645, fontFamily: _family, fontPackage: _pkg);
+  static const IconData emotion_add_fill = IconData(0xf646, fontFamily: _family, fontPackage: _pkg);
+  static const IconData emotion_add_line = IconData(0xf647, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_scan_fill = IconData(0xf648, fontFamily: _family, fontPackage: _pkg);
+  static const IconData file_scan_line = IconData(0xf649, fontFamily: _family, fontPackage: _pkg);
+  static const IconData fiverr_fill = IconData(0xf64a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData fiverr_line = IconData(0xf64b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData font_serif = IconData(0xf64c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ghost_3_fill = IconData(0xf64d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ghost_3_line = IconData(0xf64e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData gitee_fill = IconData(0xf64f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData gitee_line = IconData(0xf650, fontFamily: _family, fontPackage: _pkg);
+  static const IconData global_off_fill = IconData(0xf651, fontFamily: _family, fontPackage: _pkg);
+  static const IconData global_off_line = IconData(0xf652, fontFamily: _family, fontPackage: _pkg);
+  static const IconData image_download_fill =
+      IconData(0xf653, fontFamily: _family, fontPackage: _pkg);
+  static const IconData image_download_line =
+      IconData(0xf654, fontFamily: _family, fontPackage: _pkg);
+  static const IconData image_upload_fill =
+      IconData(0xf655, fontFamily: _family, fontPackage: _pkg);
+  static const IconData image_upload_line =
+      IconData(0xf656, fontFamily: _family, fontPackage: _pkg);
+  static const IconData issues_fill = IconData(0xf657, fontFamily: _family, fontPackage: _pkg);
+  static const IconData issues_line = IconData(0xf658, fontFamily: _family, fontPackage: _pkg);
+  static const IconData issues_reopen_fill =
+      IconData(0xf659, fontFamily: _family, fontPackage: _pkg);
+  static const IconData issues_reopen_line =
+      IconData(0xf65a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData network_error_fill =
+      IconData(0xf65b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData network_error_line =
+      IconData(0xf65c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData network_fill = IconData(0xf65d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData network_line = IconData(0xf65e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData network_off_fill = IconData(0xf65f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData network_off_line = IconData(0xf660, fontFamily: _family, fontPackage: _pkg);
+  static const IconData piano_fill = IconData(0xf661, fontFamily: _family, fontPackage: _pkg);
+  static const IconData piano_grand_fill = IconData(0xf662, fontFamily: _family, fontPackage: _pkg);
+  static const IconData piano_grand_line = IconData(0xf663, fontFamily: _family, fontPackage: _pkg);
+  static const IconData piano_line = IconData(0xf664, fontFamily: _family, fontPackage: _pkg);
+  static const IconData plug_3_fill = IconData(0xf665, fontFamily: _family, fontPackage: _pkg);
+  static const IconData plug_3_line = IconData(0xf666, fontFamily: _family, fontPackage: _pkg);
+  static const IconData send_ins_fill = IconData(0xf667, fontFamily: _family, fontPackage: _pkg);
+  static const IconData send_ins_line = IconData(0xf668, fontFamily: _family, fontPackage: _pkg);
+  static const IconData signal_cellular_1_fill =
+      IconData(0xf669, fontFamily: _family, fontPackage: _pkg);
+  static const IconData signal_cellular_1_line =
+      IconData(0xf66a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData signal_cellular_2_fill =
+      IconData(0xf66b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData signal_cellular_2_line =
+      IconData(0xf66c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData signal_cellular_3_fill =
+      IconData(0xf66d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData signal_cellular_3_line =
+      IconData(0xf66e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData signal_cellular_off_fill =
+      IconData(0xf66f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData signal_cellular_off_line =
+      IconData(0xf670, fontFamily: _family, fontPackage: _pkg);
+  static const IconData stacked_chart_fill =
+      IconData(0xf671, fontFamily: _family, fontPackage: _pkg);
+  static const IconData stacked_chart_line =
+      IconData(0xf672, fontFamily: _family, fontPackage: _pkg);
+  static const IconData upwork_fill = IconData(0xf673, fontFamily: _family, fontPackage: _pkg);
+  static const IconData upwork_line = IconData(0xf674, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brain_4_fill = IconData(0xf675, fontFamily: _family, fontPackage: _pkg);
+  static const IconData brain_4_line = IconData(0xf676, fontFamily: _family, fontPackage: _pkg);
+  static const IconData certificate_2_fill =
+      IconData(0xf677, fontFamily: _family, fontPackage: _pkg);
+  static const IconData certificate_2_line =
+      IconData(0xf678, fontFamily: _family, fontPackage: _pkg);
+  static const IconData certificate_fill = IconData(0xf679, fontFamily: _family, fontPackage: _pkg);
+  static const IconData certificate_line = IconData(0xf67a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData cookie_fill = IconData(0xf67b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData cookie_line = IconData(0xf67c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData cursor_ai_fill = IconData(0xf67d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData cursor_ai_line = IconData(0xf67e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData draw_fill = IconData(0xf67f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData draw_line = IconData(0xf680, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ghost_4_fill = IconData(0xf681, fontFamily: _family, fontPackage: _pkg);
+  static const IconData ghost_4_line = IconData(0xf682, fontFamily: _family, fontPackage: _pkg);
+  static const IconData gitbook_fill = IconData(0xf683, fontFamily: _family, fontPackage: _pkg);
+  static const IconData gitbook_line = IconData(0xf684, fontFamily: _family, fontPackage: _pkg);
+  static const IconData grok_ai_fill = IconData(0xf685, fontFamily: _family, fontPackage: _pkg);
+  static const IconData grok_ai_line = IconData(0xf686, fontFamily: _family, fontPackage: _pkg);
+  static const IconData hand_2 = IconData(0xf687, fontFamily: _family, fontPackage: _pkg);
+  static const IconData megaphone_2_fill = IconData(0xf688, fontFamily: _family, fontPackage: _pkg);
+  static const IconData megaphone_2_line = IconData(0xf689, fontFamily: _family, fontPackage: _pkg);
+  static const IconData microsoft_copilot_fill =
+      IconData(0xf68a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData microsoft_copilot_line =
+      IconData(0xf68b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mosaic_fill = IconData(0xf68c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData mosaic_line = IconData(0xf68d, fontFamily: _family, fontPackage: _pkg);
+  static const IconData qr_scan_ai_fill = IconData(0xf68e, fontFamily: _family, fontPackage: _pkg);
+  static const IconData qr_scan_ai_line = IconData(0xf68f, fontFamily: _family, fontPackage: _pkg);
+  static const IconData qwen_ai_fill = IconData(0xf690, fontFamily: _family, fontPackage: _pkg);
+  static const IconData qwen_ai_line = IconData(0xf691, fontFamily: _family, fontPackage: _pkg);
+  static const IconData reddit_2_fill = IconData(0xf692, fontFamily: _family, fontPackage: _pkg);
+  static const IconData reddit_2_line = IconData(0xf693, fontFamily: _family, fontPackage: _pkg);
+  static const IconData sim_card_warning_fill =
+      IconData(0xf694, fontFamily: _family, fontPackage: _pkg);
+  static const IconData sim_card_warning_line =
+      IconData(0xf695, fontFamily: _family, fontPackage: _pkg);
+  static const IconData space_ship_2_fill =
+      IconData(0xf696, fontFamily: _family, fontPackage: _pkg);
+  static const IconData space_ship_2_line =
+      IconData(0xf697, fontFamily: _family, fontPackage: _pkg);
+  static const IconData subreddit_fill = IconData(0xf698, fontFamily: _family, fontPackage: _pkg);
+  static const IconData subreddit_line = IconData(0xf699, fontFamily: _family, fontPackage: _pkg);
+  static const IconData zhipu_ai_fill = IconData(0xf69a, fontFamily: _family, fontPackage: _pkg);
+  static const IconData zhipu_ai_line = IconData(0xf69b, fontFamily: _family, fontPackage: _pkg);
+  static const IconData connector_fill = IconData(0xf69c, fontFamily: _family, fontPackage: _pkg);
+  static const IconData connector_line = IconData(0xf69d, fontFamily: _family, fontPackage: _pkg);
 }

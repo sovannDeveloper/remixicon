@@ -1,3 +1,12 @@
+## 1.4.0
+
+_Update Remix Icon to v4.9.1!_
+
+- _Updated to the latest version of the remix icon library at Jan 29, 2026.
+- 172 icons added, bringing the set to 3229 icons.
+- **Breaking:** `Remix.font_sans` was removed upstream — use `Remix.font_sans_serif`.
+- Upstream relicensed the icon set from Apache License 2.0 to the Remix Icon License 1.0.
+
 ## 1.3.0
 
 _Update Remix Icon to v4.5.0!_
